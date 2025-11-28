@@ -1,0 +1,551 @@
+año,comuna,división,descripción división,empresas
+2022,Villa Hermosa,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",890
+2022,Villa Hermosa,56,Actividades de servicios de comidas y bebidas,250
+2022,Villa Hermosa,68,Actividades inmobiliarias,152
+2022,Villa Hermosa,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,148
+2022,Villa Hermosa,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",114
+2022,Sin Georreferenciar,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",175
+2022,Sin Georreferenciar,68,Actividades inmobiliarias,109
+2022,Sin Georreferenciar,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",69
+2022,Sin Georreferenciar,70,Actividades de administración empresarial; actividades de consultoría de gestión,65
+2022,Sin Georreferenciar,56,Actividades de servicios de comidas y bebidas,52
+2022,Santa Elena,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",215
+2022,Santa Elena,68,Actividades inmobiliarias,197
+2022,Santa Elena,56,Actividades de servicios de comidas y bebidas,107
+2022,Santa Elena,70,Actividades de administración empresarial; actividades de consultoría de gestión,87
+2022,Santa Elena,01,"Agricultura, ganadería, caza y actividades de servicios conexas ",60
+2022,Santa Cruz,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",642
+2022,Santa Cruz,56,Actividades de servicios de comidas y bebidas,182
+2022,Santa Cruz,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,90
+2022,Santa Cruz,10,Elaboración de productos alimenticios,57
+2022,Santa Cruz,96,Otras actividades de servicios personales,56
+2022,San Javier,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",836
+2022,San Javier,56,Actividades de servicios de comidas y bebidas,226
+2022,San Javier,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,124
+2022,San Javier,96,Otras actividades de servicios personales,94
+2022,San Javier,14,Confección de prendas de vestir,93
+2022,San Cristobal,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",406
+2022,San Cristobal,56,Actividades de servicios de comidas y bebidas,130
+2022,San Cristobal,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,61
+2022,San Cristobal,96,Otras actividades de servicios personales,50
+2022,San Cristobal,10,Elaboración de productos alimenticios,47
+2022,San Antonio De Prado,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",604
+2022,San Antonio De Prado,56,Actividades de servicios de comidas y bebidas,170
+2022,San Antonio De Prado,96,Otras actividades de servicios personales,86
+2022,San Antonio De Prado,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",80
+2022,San Antonio De Prado,10,Elaboración de productos alimenticios,64
+2022,Robledo,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1061
+2022,Robledo,56,Actividades de servicios de comidas y bebidas,301
+2022,Robledo,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,167
+2022,Robledo,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",153
+2022,Robledo,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",130
+2022,Popular,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",591
+2022,Popular,56,Actividades de servicios de comidas y bebidas,170
+2022,Popular,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,82
+2022,Popular,96,Otras actividades de servicios personales,57
+2022,Popular,10,Elaboración de productos alimenticios,49
+2022,Palmitas,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",19
+2022,Palmitas,56,Actividades de servicios de comidas y bebidas,12
+2022,Palmitas,10,Elaboración de productos alimenticios,4
+2022,Palmitas,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",3
+2022,Palmitas,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",2
+2022,Manrique,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",882
+2022,Manrique,56,Actividades de servicios de comidas y bebidas,258
+2022,Manrique,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,117
+2022,Manrique,96,Otras actividades de servicios personales,100
+2022,Manrique,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",64
+2022,Laureles Estadio,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1996
+2022,Laureles Estadio,56,Actividades de servicios de comidas y bebidas,893
+2022,Laureles Estadio,68,Actividades inmobiliarias,792
+2022,Laureles Estadio,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",700
+2022,Laureles Estadio,96,Otras actividades de servicios personales,482
+2022,La Candelaria,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",6046
+2022,La Candelaria,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",1609
+2022,La Candelaria,56,Actividades de servicios de comidas y bebidas,1520
+2022,La Candelaria,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",1378
+2022,La Candelaria,68,Actividades inmobiliarias,1095
+2022,La America,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1147
+2022,La America,56,Actividades de servicios de comidas y bebidas,314
+2022,La America,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",268
+2022,La America,96,Otras actividades de servicios personales,229
+2022,La America,68,Actividades inmobiliarias,175
+2022,Guayabal,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",959
+2022,Guayabal,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",522
+2022,Guayabal,56,Actividades de servicios de comidas y bebidas,367
+2022,Guayabal,14,Confección de prendas de vestir,338
+2022,Guayabal,68,Actividades inmobiliarias,326
+2022,El Poblado,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1711
+2022,El Poblado,70,Actividades de administración empresarial; actividades de consultoría de gestión,1641
+2022,El Poblado,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",1059
+2022,El Poblado,56,Actividades de servicios de comidas y bebidas,1027
+2022,El Poblado,01,"Agricultura, ganadería, caza y actividades de servicios conexas ",912
+2022,Doce De Octubre,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",993
+2022,Doce De Octubre,56,Actividades de servicios de comidas y bebidas,200
+2022,Doce De Octubre,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,120
+2022,Doce De Octubre,10,Elaboración de productos alimenticios,99
+2022,Doce De Octubre,96,Otras actividades de servicios personales,87
+2022,Castilla,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1033
+2022,Castilla,56,Actividades de servicios de comidas y bebidas,351
+2022,Castilla,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",181
+2022,Castilla,10,Elaboración de productos alimenticios,145
+2022,Castilla,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",123
+2022,Buenos Aires,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1112
+2022,Buenos Aires,56,Actividades de servicios de comidas y bebidas,390
+2022,Buenos Aires,68,Actividades inmobiliarias,166
+2022,Buenos Aires,96,Otras actividades de servicios personales,166
+2022,Buenos Aires,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,160
+2022,Belen,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",2336
+2022,Belen,56,Actividades de servicios de comidas y bebidas,688
+2022,Belen,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",572
+2022,Belen,68,Actividades inmobiliarias,533
+2022,Belen,96,Otras actividades de servicios personales,419
+2022,Aranjuez,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1396
+2022,Aranjuez,56,Actividades de servicios de comidas y bebidas,539
+2022,Aranjuez,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",222
+2022,Aranjuez,96,Otras actividades de servicios personales,195
+2022,Aranjuez,10,Elaboración de productos alimenticios,156
+2022,Altavista,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",214
+2022,Altavista,56,Actividades de servicios de comidas y bebidas,72
+2022,Altavista,68,Actividades inmobiliarias,70
+2022,Altavista,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",61
+2022,Altavista,70,Actividades de administración empresarial; actividades de consultoría de gestión,47
+2021,Villa Hermosa,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",959
+2021,Villa Hermosa,56,Actividades de servicios de comidas y bebidas,262
+2021,Villa Hermosa,68,Actividades inmobiliarias,230
+2021,Villa Hermosa,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",163
+2021,Villa Hermosa,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,159
+2021,Sin Georreferenciar,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",49
+2021,Sin Georreferenciar,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",18
+2021,Sin Georreferenciar,68,Actividades inmobiliarias,18
+2021,Sin Georreferenciar,56,Actividades de servicios de comidas y bebidas,13
+2021,Sin Georreferenciar,01,"Agricultura, ganadería, caza y actividades de servicios conexas ",12
+2021,Santa Elena,68,Actividades inmobiliarias,97
+2021,Santa Elena,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",94
+2021,Santa Elena,56,Actividades de servicios de comidas y bebidas,39
+2021,Santa Elena,70,Actividades de administración empresarial; actividades de consultoría de gestión,38
+2021,Santa Elena,74,"Otras actividades profesionales, científicas y técnicas",36
+2021,Santa Cruz,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",606
+2021,Santa Cruz,56,Actividades de servicios de comidas y bebidas,145
+2021,Santa Cruz,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,74
+2021,Santa Cruz,10,Elaboración de productos alimenticios,52
+2021,Santa Cruz,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",51
+2021,San Javier,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",742
+2021,San Javier,56,Actividades de servicios de comidas y bebidas,177
+2021,San Javier,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,124
+2021,San Javier,10,Elaboración de productos alimenticios,81
+2021,San Javier,14,Confección de prendas de vestir,79
+2021,San Cristobal,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",474
+2021,San Cristobal,56,Actividades de servicios de comidas y bebidas,126
+2021,San Cristobal,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,75
+2021,San Cristobal,96,Otras actividades de servicios personales,55
+2021,San Cristobal,10,Elaboración de productos alimenticios,50
+2021,San Antonio De Prado,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",596
+2021,San Antonio De Prado,56,Actividades de servicios de comidas y bebidas,147
+2021,San Antonio De Prado,96,Otras actividades de servicios personales,72
+2021,San Antonio De Prado,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",68
+2021,San Antonio De Prado,10,Elaboración de productos alimenticios,59
+2021,Robledo,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",955
+2021,Robledo,56,Actividades de servicios de comidas y bebidas,230
+2021,Robledo,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,158
+2021,Robledo,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",118
+2021,Robledo,10,Elaboración de productos alimenticios,109
+2021,Popular,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",549
+2021,Popular,56,Actividades de servicios de comidas y bebidas,158
+2021,Popular,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,70
+2021,Popular,10,Elaboración de productos alimenticios,55
+2021,Popular,96,Otras actividades de servicios personales,33
+2021,Palmitas,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",13
+2021,Palmitas,56,Actividades de servicios de comidas y bebidas,4
+2021,Palmitas,25,"Fabricación de productos elaborados de metal, excepto maquinaria y equipo",2
+2021,Palmitas,10,Elaboración de productos alimenticios,1
+2021,Palmitas,13,Fabricación de productos textiles,1
+2021,Manrique,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",859
+2021,Manrique,56,Actividades de servicios de comidas y bebidas,204
+2021,Manrique,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,114
+2021,Manrique,96,Otras actividades de servicios personales,74
+2021,Manrique,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",65
+2021,Laureles Estadio,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1948
+2021,Laureles Estadio,56,Actividades de servicios de comidas y bebidas,850
+2021,Laureles Estadio,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",712
+2021,Laureles Estadio,68,Actividades inmobiliarias,709
+2021,Laureles Estadio,96,Otras actividades de servicios personales,413
+2021,La Candelaria,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",5687
+2021,La Candelaria,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",1515
+2021,La Candelaria,56,Actividades de servicios de comidas y bebidas,1402
+2021,La Candelaria,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",1252
+2021,La Candelaria,68,Actividades inmobiliarias,905
+2021,La America,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1122
+2021,La America,56,Actividades de servicios de comidas y bebidas,265
+2021,La America,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",235
+2021,La America,96,Otras actividades de servicios personales,198
+2021,La America,68,Actividades inmobiliarias,157
+2021,Guayabal,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1004
+2021,Guayabal,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",513
+2021,Guayabal,56,Actividades de servicios de comidas y bebidas,339
+2021,Guayabal,68,Actividades inmobiliarias,338
+2021,Guayabal,14,Confección de prendas de vestir,314
+2021,El Poblado,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1523
+2021,El Poblado,70,Actividades de administración empresarial; actividades de consultoría de gestión,1280
+2021,El Poblado,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",981
+2021,El Poblado,56,Actividades de servicios de comidas y bebidas,862
+2021,El Poblado,01,"Agricultura, ganadería, caza y actividades de servicios conexas ",827
+2021,Doce De Octubre,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",933
+2021,Doce De Octubre,56,Actividades de servicios de comidas y bebidas,182
+2021,Doce De Octubre,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,109
+2021,Doce De Octubre,10,Elaboración de productos alimenticios,90
+2021,Doce De Octubre,96,Otras actividades de servicios personales,83
+2021,Castilla,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",966
+2021,Castilla,56,Actividades de servicios de comidas y bebidas,316
+2021,Castilla,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",165
+2021,Castilla,10,Elaboración de productos alimenticios,144
+2021,Castilla,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",117
+2021,Buenos Aires,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1069
+2021,Buenos Aires,56,Actividades de servicios de comidas y bebidas,339
+2021,Buenos Aires,68,Actividades inmobiliarias,148
+2021,Buenos Aires,96,Otras actividades de servicios personales,141
+2021,Buenos Aires,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",133
+2021,Belen,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",2452
+2021,Belen,56,Actividades de servicios de comidas y bebidas,729
+2021,Belen,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",660
+2021,Belen,68,Actividades inmobiliarias,649
+2021,Belen,70,Actividades de administración empresarial; actividades de consultoría de gestión,421
+2021,Aranjuez,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1300
+2021,Aranjuez,56,Actividades de servicios de comidas y bebidas,487
+2021,Aranjuez,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",189
+2021,Aranjuez,96,Otras actividades de servicios personales,166
+2021,Aranjuez,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",148
+2021,Altavista,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",159
+2021,Altavista,56,Actividades de servicios de comidas y bebidas,41
+2021,Altavista,68,Actividades inmobiliarias,39
+2021,Altavista,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,29
+2021,Altavista,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",25
+2020,Villa Hermosa,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",575
+2020,Villa Hermosa,56,Actividades de servicios de comidas y bebidas,134
+2020,Villa Hermosa,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,94
+2020,Villa Hermosa,10,Elaboración de productos alimenticios,59
+2020,Villa Hermosa,96,Otras actividades de servicios personales,59
+2020,Sin Georreferenciar,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",3400
+2020,Sin Georreferenciar,68,Actividades inmobiliarias,1026
+2020,Sin Georreferenciar,56,Actividades de servicios de comidas y bebidas,954
+2020,Sin Georreferenciar,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",785
+2020,Sin Georreferenciar,70,Actividades de administración empresarial; actividades de consultoría de gestión,628
+2020,Santa Elena,01,"Agricultura, ganadería, caza y actividades de servicios conexas ",0
+2020,Santa Elena,02,Silvicultura y extracción de madera,0
+2020,Santa Elena,03,Pesca y acuicultura,0
+2020,Santa Elena,05,Extracción de carbón de piedra y lignito,0
+2020,Santa Elena,07,Extracción de minerales metalíferos,0
+2020,Santa Cruz,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",494
+2020,Santa Cruz,56,Actividades de servicios de comidas y bebidas,117
+2020,Santa Cruz,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,62
+2020,Santa Cruz,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",42
+2020,Santa Cruz,96,Otras actividades de servicios personales,36
+2020,San Javier,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",623
+2020,San Javier,56,Actividades de servicios de comidas y bebidas,135
+2020,San Javier,14,Confección de prendas de vestir,77
+2020,San Javier,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,77
+2020,San Javier,10,Elaboración de productos alimenticios,63
+2020,San Cristobal,01,"Agricultura, ganadería, caza y actividades de servicios conexas ",0
+2020,San Cristobal,02,Silvicultura y extracción de madera,0
+2020,San Cristobal,03,Pesca y acuicultura,0
+2020,San Cristobal,05,Extracción de carbón de piedra y lignito,0
+2020,San Cristobal,07,Extracción de minerales metalíferos,0
+2020,San Antonio De Prado,01,"Agricultura, ganadería, caza y actividades de servicios conexas ",0
+2020,San Antonio De Prado,02,Silvicultura y extracción de madera,0
+2020,San Antonio De Prado,03,Pesca y acuicultura,0
+2020,San Antonio De Prado,05,Extracción de carbón de piedra y lignito,0
+2020,San Antonio De Prado,07,Extracción de minerales metalíferos,0
+2020,Robledo,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",964
+2020,Robledo,56,Actividades de servicios de comidas y bebidas,245
+2020,Robledo,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,117
+2020,Robledo,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",108
+2020,Robledo,10,Elaboración de productos alimenticios,106
+2020,Popular,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",435
+2020,Popular,56,Actividades de servicios de comidas y bebidas,123
+2020,Popular,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,39
+2020,Popular,10,Elaboración de productos alimenticios,30
+2020,Popular,96,Otras actividades de servicios personales,27
+2020,Palmitas,01,"Agricultura, ganadería, caza y actividades de servicios conexas ",0
+2020,Palmitas,02,Silvicultura y extracción de madera,0
+2020,Palmitas,03,Pesca y acuicultura,0
+2020,Palmitas,05,Extracción de carbón de piedra y lignito,0
+2020,Palmitas,07,Extracción de minerales metalíferos,0
+2020,Manrique,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",768
+2020,Manrique,56,Actividades de servicios de comidas y bebidas,169
+2020,Manrique,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,89
+2020,Manrique,96,Otras actividades de servicios personales,66
+2020,Manrique,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",64
+2020,Laureles Estadio,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1706
+2020,Laureles Estadio,56,Actividades de servicios de comidas y bebidas,707
+2020,Laureles Estadio,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",616
+2020,Laureles Estadio,68,Actividades inmobiliarias,608
+2020,Laureles Estadio,96,Otras actividades de servicios personales,409
+2020,La Candelaria,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",5264
+2020,La Candelaria,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",1340
+2020,La Candelaria,56,Actividades de servicios de comidas y bebidas,1293
+2020,La Candelaria,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",1207
+2020,La Candelaria,14,Confección de prendas de vestir,931
+2020,La America,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",977
+2020,La America,56,Actividades de servicios de comidas y bebidas,244
+2020,La America,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",201
+2020,La America,96,Otras actividades de servicios personales,188
+2020,La America,14,Confección de prendas de vestir,133
+2020,Guayabal,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",770
+2020,Guayabal,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",410
+2020,Guayabal,14,Confección de prendas de vestir,263
+2020,Guayabal,56,Actividades de servicios de comidas y bebidas,253
+2020,Guayabal,68,Actividades inmobiliarias,208
+2020,El Poblado,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1276
+2020,El Poblado,70,Actividades de administración empresarial; actividades de consultoría de gestión,1068
+2020,El Poblado,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",833
+2020,El Poblado,56,Actividades de servicios de comidas y bebidas,710
+2020,El Poblado,01,"Agricultura, ganadería, caza y actividades de servicios conexas ",702
+2020,Doce De Octubre,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",805
+2020,Doce De Octubre,56,Actividades de servicios de comidas y bebidas,141
+2020,Doce De Octubre,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,87
+2020,Doce De Octubre,10,Elaboración de productos alimenticios,85
+2020,Doce De Octubre,96,Otras actividades de servicios personales,70
+2020,Castilla,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",821
+2020,Castilla,56,Actividades de servicios de comidas y bebidas,262
+2020,Castilla,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",164
+2020,Castilla,10,Elaboración de productos alimenticios,123
+2020,Castilla,96,Otras actividades de servicios personales,93
+2020,Buenos Aires,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",922
+2020,Buenos Aires,56,Actividades de servicios de comidas y bebidas,233
+2020,Buenos Aires,96,Otras actividades de servicios personales,117
+2020,Buenos Aires,10,Elaboración de productos alimenticios,102
+2020,Buenos Aires,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,94
+2020,Belen,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1883
+2020,Belen,56,Actividades de servicios de comidas y bebidas,514
+2020,Belen,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",416
+2020,Belen,96,Otras actividades de servicios personales,322
+2020,Belen,68,Actividades inmobiliarias,319
+2020,Aranjuez,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1111
+2020,Aranjuez,56,Actividades de servicios de comidas y bebidas,409
+2020,Aranjuez,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",178
+2020,Aranjuez,96,Otras actividades de servicios personales,136
+2020,Aranjuez,10,Elaboración de productos alimenticios,127
+2020,Altavista,01,"Agricultura, ganadería, caza y actividades de servicios conexas ",0
+2020,Altavista,02,Silvicultura y extracción de madera,0
+2020,Altavista,03,Pesca y acuicultura,0
+2020,Altavista,05,Extracción de carbón de piedra y lignito,0
+2020,Altavista,07,Extracción de minerales metalíferos,0
+2019,Villa Hermosa,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",641
+2019,Villa Hermosa,56,Actividades de servicios de comidas y bebidas,180
+2019,Villa Hermosa,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,116
+2019,Villa Hermosa,10,Elaboración de productos alimenticios,60
+2019,Villa Hermosa,96,Otras actividades de servicios personales,60
+2019,Sin Georreferenciar,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",3689
+2019,Sin Georreferenciar,56,Actividades de servicios de comidas y bebidas,1209
+2019,Sin Georreferenciar,68,Actividades inmobiliarias,1043
+2019,Sin Georreferenciar,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",700
+2019,Sin Georreferenciar,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,629
+2019,Santa Elena,01,"Agricultura, ganadería, caza y actividades de servicios conexas ",0
+2019,Santa Elena,02,Silvicultura y extracción de madera,0
+2019,Santa Elena,03,Pesca y acuicultura,0
+2019,Santa Elena,05,Extracción de carbón de piedra y lignito,0
+2019,Santa Elena,07,Extracción de minerales metalíferos,0
+2019,Santa Cruz,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",541
+2019,Santa Cruz,56,Actividades de servicios de comidas y bebidas,156
+2019,Santa Cruz,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,85
+2019,Santa Cruz,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",50
+2019,Santa Cruz,96,Otras actividades de servicios personales,45
+2019,San Javier,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",637
+2019,San Javier,56,Actividades de servicios de comidas y bebidas,175
+2019,San Javier,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,100
+2019,San Javier,14,Confección de prendas de vestir,85
+2019,San Javier,96,Otras actividades de servicios personales,72
+2019,San Cristobal,01,"Agricultura, ganadería, caza y actividades de servicios conexas ",0
+2019,San Cristobal,02,Silvicultura y extracción de madera,0
+2019,San Cristobal,03,Pesca y acuicultura,0
+2019,San Cristobal,05,Extracción de carbón de piedra y lignito,0
+2019,San Cristobal,07,Extracción de minerales metalíferos,0
+2019,San Antonio De Prado,01,"Agricultura, ganadería, caza y actividades de servicios conexas ",0
+2019,San Antonio De Prado,02,Silvicultura y extracción de madera,0
+2019,San Antonio De Prado,03,Pesca y acuicultura,0
+2019,San Antonio De Prado,05,Extracción de carbón de piedra y lignito,0
+2019,San Antonio De Prado,07,Extracción de minerales metalíferos,0
+2019,Robledo,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",811
+2019,Robledo,56,Actividades de servicios de comidas y bebidas,248
+2019,Robledo,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,121
+2019,Robledo,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",99
+2019,Robledo,10,Elaboración de productos alimenticios,97
+2019,Popular,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",444
+2019,Popular,56,Actividades de servicios de comidas y bebidas,149
+2019,Popular,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,59
+2019,Popular,10,Elaboración de productos alimenticios,34
+2019,Popular,96,Otras actividades de servicios personales,30
+2019,Palmitas,01,"Agricultura, ganadería, caza y actividades de servicios conexas ",0
+2019,Palmitas,02,Silvicultura y extracción de madera,0
+2019,Palmitas,03,Pesca y acuicultura,0
+2019,Palmitas,05,Extracción de carbón de piedra y lignito,0
+2019,Palmitas,07,Extracción de minerales metalíferos,0
+2019,Manrique,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",777
+2019,Manrique,56,Actividades de servicios de comidas y bebidas,207
+2019,Manrique,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,96
+2019,Manrique,96,Otras actividades de servicios personales,74
+2019,Manrique,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",64
+2019,Laureles Estadio,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1884
+2019,Laureles Estadio,56,Actividades de servicios de comidas y bebidas,957
+2019,Laureles Estadio,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",667
+2019,Laureles Estadio,68,Actividades inmobiliarias,646
+2019,Laureles Estadio,96,Otras actividades de servicios personales,491
+2019,La Candelaria,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",5954
+2019,La Candelaria,56,Actividades de servicios de comidas y bebidas,1818
+2019,La Candelaria,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",1366
+2019,La Candelaria,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",1271
+2019,La Candelaria,68,Actividades inmobiliarias,822
+2019,La America,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1082
+2019,La America,56,Actividades de servicios de comidas y bebidas,334
+2019,La America,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",221
+2019,La America,96,Otras actividades de servicios personales,207
+2019,La America,14,Confección de prendas de vestir,156
+2019,Guayabal,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",895
+2019,Guayabal,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",449
+2019,Guayabal,56,Actividades de servicios de comidas y bebidas,331
+2019,Guayabal,14,Confección de prendas de vestir,293
+2019,Guayabal,68,Actividades inmobiliarias,202
+2019,El Poblado,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1420
+2019,El Poblado,70,Actividades de administración empresarial; actividades de consultoría de gestión,1059
+2019,El Poblado,56,Actividades de servicios de comidas y bebidas,971
+2019,El Poblado,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",912
+2019,El Poblado,01,"Agricultura, ganadería, caza y actividades de servicios conexas ",724
+2019,Doce De Octubre,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",841
+2019,Doce De Octubre,56,Actividades de servicios de comidas y bebidas,202
+2019,Doce De Octubre,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,99
+2019,Doce De Octubre,10,Elaboración de productos alimenticios,88
+2019,Doce De Octubre,14,Confección de prendas de vestir,81
+2019,Castilla,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",884
+2019,Castilla,56,Actividades de servicios de comidas y bebidas,316
+2019,Castilla,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",176
+2019,Castilla,10,Elaboración de productos alimenticios,122
+2019,Castilla,96,Otras actividades de servicios personales,98
+2019,Buenos Aires,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",932
+2019,Buenos Aires,56,Actividades de servicios de comidas y bebidas,330
+2019,Buenos Aires,96,Otras actividades de servicios personales,158
+2019,Buenos Aires,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,122
+2019,Buenos Aires,10,Elaboración de productos alimenticios,117
+2019,Belen,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1974
+2019,Belen,56,Actividades de servicios de comidas y bebidas,663
+2019,Belen,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",435
+2019,Belen,96,Otras actividades de servicios personales,359
+2019,Belen,68,Actividades inmobiliarias,314
+2019,Aranjuez,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1144
+2019,Aranjuez,56,Actividades de servicios de comidas y bebidas,535
+2019,Aranjuez,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",206
+2019,Aranjuez,96,Otras actividades de servicios personales,139
+2019,Aranjuez,10,Elaboración de productos alimenticios,126
+2019,Altavista,01,"Agricultura, ganadería, caza y actividades de servicios conexas ",0
+2019,Altavista,02,Silvicultura y extracción de madera,0
+2019,Altavista,03,Pesca y acuicultura,0
+2019,Altavista,05,Extracción de carbón de piedra y lignito,0
+2019,Altavista,07,Extracción de minerales metalíferos,0
+2018,Villa Hermosa,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",628
+2018,Villa Hermosa,56,Actividades de servicios de comidas y bebidas,173
+2018,Villa Hermosa,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,115
+2018,Villa Hermosa,10,Elaboración de productos alimenticios,68
+2018,Villa Hermosa,96,Otras actividades de servicios personales,60
+2018,Sin Georreferenciar,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",3494
+2018,Sin Georreferenciar,56,Actividades de servicios de comidas y bebidas,1177
+2018,Sin Georreferenciar,68,Actividades inmobiliarias,953
+2018,Sin Georreferenciar,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",716
+2018,Sin Georreferenciar,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,598
+2018,Santa Elena,01,"Agricultura, ganadería, caza y actividades de servicios conexas ",0
+2018,Santa Elena,02,Silvicultura y extracción de madera,0
+2018,Santa Elena,03,Pesca y acuicultura,0
+2018,Santa Elena,05,Extracción de carbón de piedra y lignito,0
+2018,Santa Elena,07,Extracción de minerales metalíferos,0
+2018,Santa Cruz,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",486
+2018,Santa Cruz,56,Actividades de servicios de comidas y bebidas,154
+2018,Santa Cruz,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,83
+2018,Santa Cruz,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",50
+2018,Santa Cruz,10,Elaboración de productos alimenticios,40
+2018,San Javier,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",692
+2018,San Javier,56,Actividades de servicios de comidas y bebidas,166
+2018,San Javier,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,100
+2018,San Javier,14,Confección de prendas de vestir,83
+2018,San Javier,10,Elaboración de productos alimenticios,59
+2018,San Cristobal,01,"Agricultura, ganadería, caza y actividades de servicios conexas ",0
+2018,San Cristobal,02,Silvicultura y extracción de madera,0
+2018,San Cristobal,03,Pesca y acuicultura,0
+2018,San Cristobal,05,Extracción de carbón de piedra y lignito,0
+2018,San Cristobal,07,Extracción de minerales metalíferos,0
+2018,San Antonio De Prado,01,"Agricultura, ganadería, caza y actividades de servicios conexas ",0
+2018,San Antonio De Prado,02,Silvicultura y extracción de madera,0
+2018,San Antonio De Prado,03,Pesca y acuicultura,0
+2018,San Antonio De Prado,05,Extracción de carbón de piedra y lignito,0
+2018,San Antonio De Prado,07,Extracción de minerales metalíferos,0
+2018,Robledo,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",789
+2018,Robledo,56,Actividades de servicios de comidas y bebidas,227
+2018,Robledo,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,122
+2018,Robledo,10,Elaboración de productos alimenticios,94
+2018,Robledo,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",86
+2018,Popular,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",402
+2018,Popular,56,Actividades de servicios de comidas y bebidas,152
+2018,Popular,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,59
+2018,Popular,10,Elaboración de productos alimenticios,27
+2018,Popular,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",26
+2018,Palmitas,01,"Agricultura, ganadería, caza y actividades de servicios conexas ",0
+2018,Palmitas,02,Silvicultura y extracción de madera,0
+2018,Palmitas,03,Pesca y acuicultura,0
+2018,Palmitas,05,Extracción de carbón de piedra y lignito,0
+2018,Palmitas,07,Extracción de minerales metalíferos,0
+2018,Manrique,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",742
+2018,Manrique,56,Actividades de servicios de comidas y bebidas,196
+2018,Manrique,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,97
+2018,Manrique,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",85
+2018,Manrique,96,Otras actividades de servicios personales,65
+2018,Laureles Estadio,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1816
+2018,Laureles Estadio,56,Actividades de servicios de comidas y bebidas,911
+2018,Laureles Estadio,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",652
+2018,Laureles Estadio,68,Actividades inmobiliarias,580
+2018,Laureles Estadio,96,Otras actividades de servicios personales,439
+2018,La Candelaria,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",5776
+2018,La Candelaria,56,Actividades de servicios de comidas y bebidas,1729
+2018,La Candelaria,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",1294
+2018,La Candelaria,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",1268
+2018,La Candelaria,68,Actividades inmobiliarias,762
+2018,La America,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1081
+2018,La America,56,Actividades de servicios de comidas y bebidas,306
+2018,La America,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",219
+2018,La America,96,Otras actividades de servicios personales,200
+2018,La America,14,Confección de prendas de vestir,153
+2018,Guayabal,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",865
+2018,Guayabal,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",407
+2018,Guayabal,56,Actividades de servicios de comidas y bebidas,315
+2018,Guayabal,14,Confección de prendas de vestir,281
+2018,Guayabal,10,Elaboración de productos alimenticios,176
+2018,El Poblado,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1429
+2018,El Poblado,70,Actividades de administración empresarial; actividades de consultoría de gestión,1009
+2018,El Poblado,56,Actividades de servicios de comidas y bebidas,941
+2018,El Poblado,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",876
+2018,El Poblado,01,"Agricultura, ganadería, caza y actividades de servicios conexas ",689
+2018,Doce De Octubre,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",816
+2018,Doce De Octubre,56,Actividades de servicios de comidas y bebidas,217
+2018,Doce De Octubre,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,108
+2018,Doce De Octubre,10,Elaboración de productos alimenticios,81
+2018,Doce De Octubre,96,Otras actividades de servicios personales,70
+2018,Castilla,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",852
+2018,Castilla,56,Actividades de servicios de comidas y bebidas,313
+2018,Castilla,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",153
+2018,Castilla,10,Elaboración de productos alimenticios,119
+2018,Castilla,96,Otras actividades de servicios personales,104
+2018,Buenos Aires,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",924
+2018,Buenos Aires,56,Actividades de servicios de comidas y bebidas,328
+2018,Buenos Aires,96,Otras actividades de servicios personales,140
+2018,Buenos Aires,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,121
+2018,Buenos Aires,10,Elaboración de productos alimenticios,113
+2018,Belen,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1877
+2018,Belen,56,Actividades de servicios de comidas y bebidas,621
+2018,Belen,46,"Comercio al por mayor y en comisión o por contrata, excepto el comercio de vehículos automotores y motocicletas",433
+2018,Belen,96,Otras actividades de servicios personales,319
+2018,Belen,14,Confección de prendas de vestir,300
+2018,Aranjuez,47,"Comercio al por menor (incluso el comercio al por menor de combustibles), excepto el de vehículos automotores y motocicletas",1130
+2018,Aranjuez,56,Actividades de servicios de comidas y bebidas,498
+2018,Aranjuez,45,"Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios",200
+2018,Aranjuez,43,Actividades especializadas para la construcción de edificios y obras de ingeniería civil,130
+2018,Aranjuez,10,Elaboración de productos alimenticios,121
+2018,Altavista,01,"Agricultura, ganadería, caza y actividades de servicios conexas ",0
+2018,Altavista,02,Silvicultura y extracción de madera,0
+2018,Altavista,03,Pesca y acuicultura,0
+2018,Altavista,05,Extracción de carbón de piedra y lignito,0
+2018,Altavista,07,Extracción de minerales metalíferos,0

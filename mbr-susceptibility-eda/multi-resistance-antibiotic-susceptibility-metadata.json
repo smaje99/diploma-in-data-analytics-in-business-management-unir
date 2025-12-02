@@ -1,0 +1,562 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataBiases": "cr:dataBiases",
+    "dataCollection": "cr:dataCollection",
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isEnumeration": "cr:isEnumeration",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "personalSensitiveInformation": "cr:personalSensitiveInformation",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform",
+    "wd": "https://www.wikidata.org/wiki/"
+  },
+  "alternateName": "Bacterial isolates, risk factors, and antibiotic resistance profiles across mult",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "license": {
+    "@type": "sc:CreativeWork",
+    "name": "CC BY-NC-SA 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  },
+  "distribution": [
+    {
+      "contentUrl": "https://www.kaggle.com/api/v1/datasets/download/adilimadeddinehosni/multi-resistance-antibiotic-susceptibility?datasetVersionNumber=2",
+      "contentSize": "564.857 KB",
+      "md5": "mG5qOz0u1LZPRV9JWF2XDg==",
+      "encodingFormat": "application/zip",
+      "@id": "archive.zip",
+      "@type": "cr:FileObject",
+      "name": "archive.zip",
+      "description": "Archive containing all the contents of the \uD83E\uDDEC Multi-Resistance Antibiotic Susceptibility dataset"
+    },
+    {
+      "contentUrl": "Bacteria_dataset_Multiresictance.csv",
+      "containedIn": {
+        "@id": "archive.zip"
+      },
+      "encodingFormat": "text/csv",
+      "@id": "Bacteria_dataset_Multiresictance.csv_fileobject",
+      "@type": "cr:FileObject",
+      "name": "Bacteria_dataset_Multiresictance.csv",
+      "description": "# \uD83D\uDCC2 1. synthetic_bacteria_dataset_dirty.csv\n\nThis is the **main dataset file**.  \nIt contains **bacterial isolates**, associated **risk factors**, and **antibiotic susceptibility results**.  \n\n- **Rows**: ~10,000 bacterial isolates  \n  (includes duplicates, noisy values, and corrupted entries to reflect diverse data conditions).  \n- **Columns**: Patient metadata, clinical notes, risk factors, and antibiotic test results.  \n\n---\n\n## \uD83D\uDD11 Columns Description\n\n### \uD83E\uDDA0 Souche\n- Bacterial species name.  \n- Examples: *Escherichia coli*, *Klebsiella pneumoniae*, *Staphylococcus aureus*.  \n- Includes **typos and inconsistent spellings**.  \n\n---\n\n### \uD83D\uDC64 age/gender\n- Combined patient demographic field in the form \u0060\u0022Age/Gender\u0022\u0060.  \n- Example: \u0060\u002245/M\u0022\u0060 \u2192 Male, 45 years old.  \n- Gender encoded as \u0060\u0022M\u0022\u0060 or \u0060\u0022F\u0022\u0060.  \n- May include incomplete or corrupted entries such as \u0060\u0022??/M\u0022\u0060, \u0060\u002225/\u0022\u0060, \u0060\u0022unknown\u0022\u0060.  \n\n---\n\n### \uD83E\uDE7A Diabetes\n- Patient risk factor for diabetes.  \n- Possible values: \u0060\u0022Yes\u0022\u0060, \u0060\u0022No\u0022\u0060.  \n- Variations also present: \u0060\u0022Y\u0022\u0060, \u0060\u00221\u0022\u0060, \u0060\u0022True\u0022\u0060, \u0060\u0022?\u0022\u0060.  \n\n---\n\n### \uD83D\uDC93 Hypertension\n- Patient risk factor for hypertension.  \n- Values: \u0060\u0022Yes\u0022\u0060, \u0060\u0022No\u0022\u0060.  \n- May include inconsistent labels (\u0060\u0022yes\u0022\u0060, \u0060\u0022NO\u0022\u0060, \u0060\u0022?\u0022\u0060).  \n\n---\n\n### \uD83C\uDFE5 Hospital_before\n- Indicates if the patient had a **prior hospital stay**.  \n- Values: \u0060\u0022Yes\u0022\u0060, \u0060\u0022No\u0022\u0060.  \n\n---\n\n### \uD83D\uDCCA Infection_Freq\n- Frequency of infections per patient.  \n- Encoded categories:  \n  - \u00600\u0060 \u2192 Never  \n  - \u00601\u0060 \u2192 Rarely  \n  - \u00602\u0060 \u2192 Regularly  \n  - \u00603\u0060 \u2192 Often  \n- Includes anomalies such as \u0060\u0022unknown\u0022\u0060, \u0060\u0022error\u0022\u0060, \u0060\u0022missing\u0022\u0060.  \n\n---\n\n### \uD83D\uDCC5 Collection_Date\n- Date of bacterial isolate collection.  \n- Multiple formats:  \n  - \u0060YYYY-MM-DD\u0060 \u2192 \u0060\u00222025-01-15\u0022\u0060  \n  - \u0060DD/MM/YYYY\u0060 \u2192 \u0060\u002215/01/2025\u0022\u0060  \n  - Text format \u2192 \u0060\u00225 Jan 2025\u0022\u0060  \n- Some missing or corrupted entries (\u0060\u0022???\u0022\u0060).  \n\n---\n\n### \uD83D\uDCDD Notes\n- Free-text field for additional comments.  \n- Contains multiple languages and varied formatting.  \n- Examples:  \n  - \u0060\u0022Patient had fever??\u0022\u0060  \n  - \u0060\u0022PACIENTO ENFERMO\u0022\u0060  \n  - \u0060\u0022\u062A\u0645 \u0627\u0644\u0639\u0644\u0627\u062C\u0022\u0060  \n\n---\n\n## \uD83D\uDC8A Antibiotic Susceptibility Test Results\n\nEach antibiotic is represented by a column.  \nValues describe isolate response:  \n- \u0060\u0022S\u0022\u0060 \u2192 **Susceptible**  \n- \u0060\u0022R\u0022\u0060 \u2192 **Resistant**  \n- \u0060\u0022i\u0022\u0060 / \u0060\u0022Intermediate\u0022\u0060 \u2192 **Partial resistance**  \n- Other values: \u0060\u0022?\u0022\u0060, \u0060\u0022missing\u0022\u0060, \u0060\u0022error\u0022\u0060.  \n\n---\n\n### \uD83D\uDCCC Antibiotic Families\n\n- **\u03B2-lactams**  \n  - \u0060AMX/AMP\u0060 (Amoxicillin/Ampicillin)  \n  - \u0060AMC\u0060 (Amoxicillin-Clavulanic Acid)  \n  - \u0060CZ\u0060 (Cefazolin)  \n  - \u0060FOX\u0060 (Cefoxitin)  \n  - \u0060CTX/CRO\u0060 (Cefotaxime/Ceftriaxone)  \n  - \u0060IPM\u0060 (Imipenem)  \n\n- **Aminosides**  \n  - \u0060GEN\u0060 (Gentamicin)  \n  - \u0060AN\u0060 (Amikacin)  \n\n- **Quinolones**  \n  - \u0060Acide nalidixique\u0060 (Nalidixic Acid)  \n  - \u0060ofx\u0060 (Ofloxacin)  \n  - \u0060CIP\u0060 (Ciprofloxacin)  \n\n- **Others**  \n  - \u0060C\u0060 (Chloramphenicol)  \n  - \u0060Co-trimoxazole\u0060 (Trimethoprim-Sulfamethoxazole)  \n  - \u0060Furanes\u0060 (Nitrofurantoin family)  \n  - \u0060colistine\u0060 (Polymyxin E)  \n\n---\n\n## \u26A0\uFE0F Key Notes\n- Dataset contains **structured, semi-structured, and unstructured data**.  \n- Provides opportunities for:  \n  - **Data cleaning and preprocessing**  \n  - **Machine learning** for resistance prediction  \n  - **Natural language processing (NLP)** on noisy notes  \n  - **Network analysis** of bacteria\u2013antibiotic relationships  \n\n"
+    }
+  ],
+  "recordSet": [
+    {
+      "field": [
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "ID"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/ID",
+          "@type": "cr:Field",
+          "name": "ID",
+          "description": ""
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "Name"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/Name",
+          "@type": "cr:Field",
+          "name": "Name",
+          "description": ""
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "Email"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/Email",
+          "@type": "cr:Field",
+          "name": "Email",
+          "description": ""
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "Address"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/Address",
+          "@type": "cr:Field",
+          "name": "Address",
+          "description": ""
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "age/gender"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/age%2Fgender",
+          "@type": "cr:Field",
+          "name": "age/gender",
+          "description": "age"
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "Souches"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/Souches",
+          "@type": "cr:Field",
+          "name": "Souches",
+          "description": ""
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "Diabetes"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/Diabetes",
+          "@type": "cr:Field",
+          "name": "Diabetes",
+          "description": ""
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "Hypertension"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/Hypertension",
+          "@type": "cr:Field",
+          "name": "Hypertension",
+          "description": ""
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "Hospital_before"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/Hospital_before",
+          "@type": "cr:Field",
+          "name": "Hospital_before",
+          "description": ""
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "Infection_Freq"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/Infection_Freq",
+          "@type": "cr:Field",
+          "name": "Infection_Freq",
+          "description": ""
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "AMX/AMP"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/AMX%2FAMP",
+          "@type": "cr:Field",
+          "name": "AMX/AMP"
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "AMC"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/AMC",
+          "@type": "cr:Field",
+          "name": "AMC"
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "CZ"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/CZ",
+          "@type": "cr:Field",
+          "name": "CZ"
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "FOX"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/FOX",
+          "@type": "cr:Field",
+          "name": "FOX"
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "CTX/CRO"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/CTX%2FCRO",
+          "@type": "cr:Field",
+          "name": "CTX/CRO"
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "IPM"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/IPM",
+          "@type": "cr:Field",
+          "name": "IPM"
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "GEN"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/GEN",
+          "@type": "cr:Field",
+          "name": "GEN"
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "AN"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/AN",
+          "@type": "cr:Field",
+          "name": "AN"
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "Acide nalidixique"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/Acide\u002Bnalidixique",
+          "@type": "cr:Field",
+          "name": "Acide nalidixique"
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "ofx"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/ofx",
+          "@type": "cr:Field",
+          "name": "ofx"
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "CIP"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/CIP",
+          "@type": "cr:Field",
+          "name": "CIP"
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "C"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/C",
+          "@type": "cr:Field",
+          "name": "C"
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "Co-trimoxazole"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/Co-trimoxazole",
+          "@type": "cr:Field",
+          "name": "Co-trimoxazole"
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "Furanes"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/Furanes",
+          "@type": "cr:Field",
+          "name": "Furanes"
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "colistine"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/colistine",
+          "@type": "cr:Field",
+          "name": "colistine"
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "Collection_Date"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/Collection_Date",
+          "@type": "cr:Field",
+          "name": "Collection_Date"
+        },
+        {
+          "dataType": [
+            "sc:Text"
+          ],
+          "source": {
+            "fileObject": {
+              "@id": "Bacteria_dataset_Multiresictance.csv_fileobject"
+            },
+            "extract": {
+              "column": "Notes"
+            }
+          },
+          "@id": "Bacteria_dataset_Multiresictance.csv/Notes",
+          "@type": "cr:Field",
+          "name": "Notes"
+        }
+      ],
+      "@id": "Bacteria_dataset_Multiresictance.csv",
+      "@type": "cr:RecordSet",
+      "name": "Bacteria_dataset_Multiresictance.csv",
+      "description": "# \uD83D\uDCC2 1. synthetic_bacteria_dataset_dirty.csv\n\nThis is the **main dataset file**.  \nIt contains **bacterial isolates**, associated **risk factors**, and **antibiotic susceptibility results**.  \n\n- **Rows**: ~10,000 bacterial isolates  \n  (includes duplicates, noisy values, and corrupted entries to reflect diverse data conditions).  \n- **Columns**: Patient metadata, clinical notes, risk factors, and antibiotic test results.  \n\n---\n\n## \uD83D\uDD11 Columns Description\n\n### \uD83E\uDDA0 Souche\n- Bacterial species name.  \n- Examples: *Escherichia coli*, *Klebsiella pneumoniae*, *Staphylococcus aureus*.  \n- Includes **typos and inconsistent spellings**.  \n\n---\n\n### \uD83D\uDC64 age/gender\n- Combined patient demographic field in the form \u0060\u0022Age/Gender\u0022\u0060.  \n- Example: \u0060\u002245/M\u0022\u0060 \u2192 Male, 45 years old.  \n- Gender encoded as \u0060\u0022M\u0022\u0060 or \u0060\u0022F\u0022\u0060.  \n- May include incomplete or corrupted entries such as \u0060\u0022??/M\u0022\u0060, \u0060\u002225/\u0022\u0060, \u0060\u0022unknown\u0022\u0060.  \n\n---\n\n### \uD83E\uDE7A Diabetes\n- Patient risk factor for diabetes.  \n- Possible values: \u0060\u0022Yes\u0022\u0060, \u0060\u0022No\u0022\u0060.  \n- Variations also present: \u0060\u0022Y\u0022\u0060, \u0060\u00221\u0022\u0060, \u0060\u0022True\u0022\u0060, \u0060\u0022?\u0022\u0060.  \n\n---\n\n### \uD83D\uDC93 Hypertension\n- Patient risk factor for hypertension.  \n- Values: \u0060\u0022Yes\u0022\u0060, \u0060\u0022No\u0022\u0060.  \n- May include inconsistent labels (\u0060\u0022yes\u0022\u0060, \u0060\u0022NO\u0022\u0060, \u0060\u0022?\u0022\u0060).  \n\n---\n\n### \uD83C\uDFE5 Hospital_before\n- Indicates if the patient had a **prior hospital stay**.  \n- Values: \u0060\u0022Yes\u0022\u0060, \u0060\u0022No\u0022\u0060.  \n\n---\n\n### \uD83D\uDCCA Infection_Freq\n- Frequency of infections per patient.  \n- Encoded categories:  \n  - \u00600\u0060 \u2192 Never  \n  - \u00601\u0060 \u2192 Rarely  \n  - \u00602\u0060 \u2192 Regularly  \n  - \u00603\u0060 \u2192 Often  \n- Includes anomalies such as \u0060\u0022unknown\u0022\u0060, \u0060\u0022error\u0022\u0060, \u0060\u0022missing\u0022\u0060.  \n\n---\n\n### \uD83D\uDCC5 Collection_Date\n- Date of bacterial isolate collection.  \n- Multiple formats:  \n  - \u0060YYYY-MM-DD\u0060 \u2192 \u0060\u00222025-01-15\u0022\u0060  \n  - \u0060DD/MM/YYYY\u0060 \u2192 \u0060\u002215/01/2025\u0022\u0060  \n  - Text format \u2192 \u0060\u00225 Jan 2025\u0022\u0060  \n- Some missing or corrupted entries (\u0060\u0022???\u0022\u0060).  \n\n---\n\n### \uD83D\uDCDD Notes\n- Free-text field for additional comments.  \n- Contains multiple languages and varied formatting.  \n- Examples:  \n  - \u0060\u0022Patient had fever??\u0022\u0060  \n  - \u0060\u0022PACIENTO ENFERMO\u0022\u0060  \n  - \u0060\u0022\u062A\u0645 \u0627\u0644\u0639\u0644\u0627\u062C\u0022\u0060  \n\n---\n\n## \uD83D\uDC8A Antibiotic Susceptibility Test Results\n\nEach antibiotic is represented by a column.  \nValues describe isolate response:  \n- \u0060\u0022S\u0022\u0060 \u2192 **Susceptible**  \n- \u0060\u0022R\u0022\u0060 \u2192 **Resistant**  \n- \u0060\u0022i\u0022\u0060 / \u0060\u0022Intermediate\u0022\u0060 \u2192 **Partial resistance**  \n- Other values: \u0060\u0022?\u0022\u0060, \u0060\u0022missing\u0022\u0060, \u0060\u0022error\u0022\u0060.  \n\n---\n\n### \uD83D\uDCCC Antibiotic Families\n\n- **\u03B2-lactams**  \n  - \u0060AMX/AMP\u0060 (Amoxicillin/Ampicillin)  \n  - \u0060AMC\u0060 (Amoxicillin-Clavulanic Acid)  \n  - \u0060CZ\u0060 (Cefazolin)  \n  - \u0060FOX\u0060 (Cefoxitin)  \n  - \u0060CTX/CRO\u0060 (Cefotaxime/Ceftriaxone)  \n  - \u0060IPM\u0060 (Imipenem)  \n\n- **Aminosides**  \n  - \u0060GEN\u0060 (Gentamicin)  \n  - \u0060AN\u0060 (Amikacin)  \n\n- **Quinolones**  \n  - \u0060Acide nalidixique\u0060 (Nalidixic Acid)  \n  - \u0060ofx\u0060 (Ofloxacin)  \n  - \u0060CIP\u0060 (Ciprofloxacin)  \n\n- **Others**  \n  - \u0060C\u0060 (Chloramphenicol)  \n  - \u0060Co-trimoxazole\u0060 (Trimethoprim-Sulfamethoxazole)  \n  - \u0060Furanes\u0060 (Nitrofurantoin family)  \n  - \u0060colistine\u0060 (Polymyxin E)  \n\n---\n\n## \u26A0\uFE0F Key Notes\n- Dataset contains **structured, semi-structured, and unstructured data**.  \n- Provides opportunities for:  \n  - **Data cleaning and preprocessing**  \n  - **Machine learning** for resistance prediction  \n  - **Natural language processing (NLP)** on noisy notes  \n  - **Network analysis** of bacteria\u2013antibiotic relationships  \n\n"
+    }
+  ],
+  "version": 2,
+  "keywords": [
+    "subject \u003E earth and nature \u003E biology",
+    "subject \u003E health and fitness \u003E health \u003E healthcare \u003E drugs and medications",
+    "analysis \u003E data cleaning",
+    "technique \u003E exploratory data analysis",
+    "technique \u003E data visualization"
+  ],
+  "isAccessibleForFree": true,
+  "includedInDataCatalog": {
+    "@type": "sc:DataCatalog",
+    "name": "Kaggle",
+    "url": "https://www.kaggle.com"
+  },
+  "creator": {
+    "@type": "sc:Person",
+    "name": "adil imad eddine hosni",
+    "url": "/adilimadeddinehosni",
+    "image": "https://storage.googleapis.com/kaggle-avatars/thumbnails/11395503-kg.png"
+  },
+  "publisher": {
+    "@type": "sc:Organization",
+    "name": "Kaggle",
+    "url": "https://www.kaggle.com/organizations/kaggle",
+    "image": "https://storage.googleapis.com/kaggle-organizations/4/thumbnail.png"
+  },
+  "thumbnailUrl": "https://storage.googleapis.com/kaggle-datasets-images/8345177/13169750/c4b373ae92186f6f8b7a56c992d085e7/dataset-card.png?t=2025-09-25-13-24-07",
+  "dateModified": "2025-09-25T13:21:50.087",
+  "datePublished": "2025-09-25T13:03:42.953",
+  "@type": "sc:Dataset",
+  "name": "\uD83E\uDDEC Multi-Resistance Antibiotic Susceptibility",
+  "url": "https://www.kaggle.com/datasets/adilimadeddinehosni/multi-resistance-antibiotic-susceptibility/versions/2",
+  "description": "# \uD83D\uDCD6Overview\n\nThis dataset provides a comprehensive collection of bacterial isolates tested against a wide panel of antibiotics. Each row represents a unique bacterial strain isolated from a patient sample, along with associated demographic information, clinical risk factors, and antibiotic susceptibility test results.\n\nThe dataset has been structured to allow researchers to study:\n- Patterns of multi-drug resistance (MDR) across bacterial species\n- The relationship between patient risk factors (e.g., diabetes, hypertension, hospitalization history) and resistance\n- Epidemiological trends of resistance across antibiotic families\n- The impact of data quality challenges such as missing values, inconsistent labels, and free-text entries\n\nThis dataset is well-suited for antibiotic resistance surveillance, exploratory data analysis (EDA), predictive modeling, and teaching in data-driven microbiology.\n\n# \uD83D\uDD2CAntibiotic Families and Molecules\n\nThe dataset includes 15\u002B antibiotics spanning 4 major families, representing commonly prescribed agents in clinical practice. Results are coded primarily as:\n- R \u2192 Resistant\n- S \u2192 Susceptible\nwith occasional alternative encodings such as i, Intermediate, r, s, NA, missing.\n\n## \u03B2-lactams (Beta-lactams)\n\nTarget bacterial cell wall synthesis by inhibiting penicillin-binding proteins (PBPs).\n\n- AMX/AMP \u2192 Amoxicillin / Ampicillin (aminopenicillins)\n- AMC \u2192 Amoxicillin \u002B Clavulanic Acid (\u03B2-lactam/\u03B2-lactamase inhibitor)\n- CZ \u2192 Cefazolin (first-generation cephalosporin)\n- FOX \u2192 Cefoxitin (second-generation cephamycin)\n- CTX/CRO \u2192 Cefotaxime / Ceftriaxone (third-generation cephalosporins)\n- IPM \u2192 Imipenem (a carbapenem, considered a last-resort treatment)\n\n## Aminoglycosides (Aminosides)\n\nBind to the 30S ribosomal subunit, inhibiting protein synthesis.\n\n- GEN \u2192 Gentamicin\n- AN \u2192 Amikacin (broader spectrum, often effective against gentamicin-resistant strains)\n\n## Quinolones / Fluoroquinolones\n\nInhibit bacterial DNA gyrase and topoisomerase IV, interfering with DNA replication.\n- Acide nalidixique \u2192 Nalidixic Acid (first-generation quinolone, Gram-negative coverage)\n- OFX \u2192 Ofloxacin (fluoroquinolone, broad spectrum)\n- CIP \u2192 Ciprofloxacin (fluoroquinolone, widely used for urinary tract infections)\n\n## Other Important Agents\n\nInclude drugs from various classes used for Gram-positive, Gram-negative, or multidrug-resistant infections.\n\n- C \u2192 Chloramphenicol (broad-spectrum, rarely used due to toxicity but still tested)\n- Co-trimoxazole \u2192 Combination of Trimethoprim \u002B Sulfamethoxazole (folate pathway inhibitor)\n- Furanes \u2192 Nitrofurantoin (commonly used for urinary tract infections)\n- Colistine \u2192 Colistin (polymyxin class, last-line therapy for carbapenem-resistant organisms)\n\n# \uD83E\uDDFEDataset Structure \n## Identification \u0026 Demographics\n\n- ID \u2192 Unique strain identifier (e.g., S290)\n- Souche \u2192 Bacterial species name (e.g., Escherichia coli, Klebsiella pneumoniae, Pseudomonas aeruginosa)\n- Age \u2192 Patient age (numeric)\n- Gender \u2192 Encoded as M / F\n\n## Risk Factors\n\n- Diabetes \u2192 {Yes, No, Y, N, True, 1, ?}\n- Hypertension \u2192 {Yes, No, missing, ?}\n- Hospital_before \u2192 {Yes, No} (prior hospitalization within the last 6 months)\n- Infection_Freq \u2192 Frequency of recurrent infections\n    - Never \u2192 no recurrence\n    - Rarely \u2192 \u0026lt;2 times per year\n    - Regularly \u2192 \u0026lt;6 times per year\n    - Often \u2192 \u22656 times per year\n\n## Antibiotic Susceptibility Test (AST) Results\n\nEach column corresponds to one antibiotic (e.g., GEN, CIP, IPM)\n\nResults: {R, S, i, Intermediate, NA, missing}\n\n## Metadata\n\nCollection_Date \u2192 Date of sample collection (multiple formats: ISO, DD/MM/YYYY, textual month formats)\nNotes \u2192 Free-text comments (multilingual, includes English, French, Spanish, Arabic)\n\n# \uD83D\uDCCA Dataset Dimensions  \n\nRows: ~10,000 isolates\n\nColumns: ~25 features (including demographics, risk factors, and AST results)\n\nCoverage: Multiple bacterial species, diverse antibiotics, heterogeneous patients\n\n#\uD83E\uDDEA Analytical Opportunities\n\nResearchers and data scientists can explore:\n\n- Prevalence of resistance within and across antibiotic families\n- Multi-drug resistance profiles (isolates resistant to \u22653 families)\n- Association between risk factors and resistance (e.g., diabetes vs. resistance to aminoglycosides)\n- Epidemiological trends (distribution by age, gender, hospitalization history)\n- Resistance clustering across species and families\n- Data quality issues (handling noisy categorical labels, missing values, and unstructured notes)\n\n# \uD83C\uDFAF Intended Use Cases\n\n- Antimicrobial Resistance Surveillance \u2192 Identify species-antibiotic patterns and MDR strains\n- Predictive Modeling \u2192 Build classifiers for resistance prediction (binary/multilabel classification)\n- Data Cleaning Challenges \u2192 Handle categorical inconsistencies, missing data, and corrupted values\n- Teaching \u0026 Training \u2192 Use as a case study in microbiology, data science, and machine learning courses\n- Benchmarking \u2192 Compare ML algorithms for classification, clustering, or dimensionality reduction\n\n# \u2728 Key Highlights\n\n- \u2705 Coverage of 15\u002B antibiotics across 4 major families\n- \u2705 Inclusion of clinical risk factors to study associations with resistance\n- \u2705 Demographic metadata (age, gender, hospitalization)\n- \u2705 Messy data elements (typos, missing values, inconsistent encodings, multilingual notes)\n- \u2705 Suitable for advanced exploratory, statistical, and machine learning analysis\n\n\uD83D\uDCA1 This dataset enables detailed study of antimicrobial resistance patterns, supports multi-drug resistance modeling, and provides a realistic foundation for clinical data analysis and decision support research."
+}
